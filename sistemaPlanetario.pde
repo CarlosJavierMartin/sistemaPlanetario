@@ -1,11 +1,7 @@
-import gifAnimation.*;
-
 Planet sun, planet1, planet2, planet3, planet4, planet5;
 PImage img;
 int zoom = 0;
 
-
-GifMaker gifExport;
 void setup(){
   size(1500,1000, P3D);
   img = loadImage("https://www.solarsystemscope.com/textures/download/2k_stars_milky_way.jpg"); 
@@ -19,8 +15,6 @@ void setup(){
   planet3 = new Planet(50,"Mars",0.10,0.15,100,600,600,0.01,0.01,"https://www.solarsystemscope.com/textures/download/2k_mars.jpg", false, "");
   planet4 = new Planet(60,"Saturn",0.07,0.12,500,-800,800,0.008,0.008,"https://www.solarsystemscope.com/textures/download/2k_saturn.jpg", false, "");
   planet5 = new Planet(25,"Neptune",0.13,0.18,1000,0,1000,0.005,-0.005,"https://www.solarsystemscope.com/textures/download/2k_neptune.jpg", false, "");
-  gifExport = new GifMaker(this, "sp.gif");
-  gifExport.setRepeat(0);
 }
 
 void draw(){
@@ -36,8 +30,6 @@ void draw(){
   planet3.display();
   planet4.display();
   planet5.display();
-  gifExport.setDelay(1);
-  gifExport.addFrame();
 }
 
 void drawControls(){
@@ -57,9 +49,6 @@ void keyPressed(){
 
   if(keyCode == DOWN){
     zoom -= 100;
-  }
-  if(keyCode == ENTER){
-    gifExport.finish();
   }
 }
 
