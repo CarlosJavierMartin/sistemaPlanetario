@@ -14,8 +14,8 @@ Resultado:
 ![error](https://github.com/CarlosJavierMartin/sistemaPlanetario/blob/master/sp.gif?raw=true)
 
 Acciones realizadas:
-  -Se realiza un zoom in y un zoom out para verificar que los controles funcionan.
-  -Se deja la simulación un tiempo para verla en funcionamiento.
+  - Se realiza un zoom in y un zoom out para verificar que los controles funcionan.
+  - Se deja la simulación un tiempo para verla en funcionamiento.
   
 Referencias:
   - Recursos de programación:
