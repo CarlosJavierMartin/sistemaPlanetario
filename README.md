@@ -20,3 +20,13 @@ Acciones realizadas:
 Referencias:
   - Recursos de programación:
     - https://processing.org/reference/
+  - Texuras:
+    - Fondo: https://www.solarsystemscope.com/textures/download/2k_stars_milky_way.jpg
+    - Planetas, sol y luna:
+      - https://www.solarsystemscope.com/textures/download/2k_sun.jpg
+      - https://www.solarsystemscope.com/textures/download/2k_mercury.jpg
+      - https://www.solarsystemscope.com/textures/download/2k_earth_daymap.jpg
+      - https://www.solarsystemscope.com/textures/download/2k_mars.jpg
+      - https://www.solarsystemscope.com/textures/download/2k_saturn.jpg
+      - https://www.solarsystemscope.com/textures/download/2k_neptune.jpg
+      - https://www.solarsystemscope.com/textures/download/2k_moon.jpg
